@@ -1,0 +1,24 @@
+def arithmetic_operations(a, b):
+    # Addition
+    add_result = a + b
+
+    # Subtraction
+    sub_result = a - b
+
+    # Multiplication
+    mul_result = a * b
+
+    # Division
+    div_result = a / b if b != 0 else "Cannot divide by zero"
+
+    return add_result, sub_result, mul_result, div_result
+
+# Example usage
+num1 = 5000
+num2 = 100
+results = arithmetic_operations(num1, num2)
+
+print(f"Addition: {results[0]}")
+print(f"Subtraction: {results[1]}")
+print(f"Multiplication: {results[2]}")
+print(f"Division: {results[3]}")
